@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
      * Layer 0
      */
-    [0] = LAYOUT_matrix1(
+    [0] = LAYOUT_matrx(
                                           TD(TD_ESC), TD(TD_F1), TD(TD_F2), TD(TD_F3), TD(TD_F4),   KC_F5, KC_F6, KC_F7, KC_F8,   KC_F9, KC_F10, KC_F11, KC_F12,
 
         LAG(KC_1), LAG(KC_2), LAG(KC_3),  BP_DLR,  KC_1, KC_2, KC_3, KC_4, KC_5,       KC_DEL,  KC_6, KC_7, KC_8, KC_9, KC_0, BP_EQL, BP_PERC,
@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
      * Layer 1
      */
-    [1] = LAYOUT_matrix1(
+    [1] = LAYOUT_matrx(
                                      QK_BOOT, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_BRIGHTNESS_DOWN, KC_BRIGHTNESS_UP,
 
         _______, _______, _______,   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
