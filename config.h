@@ -13,7 +13,7 @@
  * https://docs.qmk.fm/#/feature_bootmagic
  */
 #define BOOTMAGIC_ROW 0
-#define BOOTMAGIC_COLUMN 3
+#define BOOTMAGIC_COLUMN 2
 
 /* disable debug print */
 //#define NO_DEBUG
