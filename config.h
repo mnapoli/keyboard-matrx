@@ -3,6 +3,10 @@
 
 #pragma once
 
+// Default is 200ms
+// https://docs.qmk.fm/tap_hold#dynamic-tapping-term
+#define TAPPING_TERM 150
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
